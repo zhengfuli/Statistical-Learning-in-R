@@ -451,6 +451,7 @@
       <w>Arg</w>
       <w>Arith</w>
       <w>Assay</w>
+      <w>Auto</w>
       <w>Axis</w>
       <w>AxisSecondary</w>
       <w>BH</w>
@@ -471,12 +472,15 @@
       <w>CRAN_check_results</w>
       <w>CRAN_memtest_notes</w>
       <w>CRAN_package_db</w>
+      <w>Caravan</w>
       <w>Cars93</w>
+      <w>Carseats</w>
       <w>Cefamandole</w>
       <w>ChickWeight</w>
       <w>Cholesky</w>
       <w>CleanupReporter</w>
       <w>ClientValue</w>
+      <w>College</w>
       <w>Compare</w>
       <w>Complex</w>
       <w>Conj</w>
@@ -489,12 +493,14 @@
       <w>CoordQuickmap</w>
       <w>CoordSf</w>
       <w>CoordTrans</w>
+      <w>Credit</w>
       <w>Cstack_info</w>
       <w>Cushings</w>
       <w>D</w>
       <w>DDT</w>
       <w>DLL.version</w>
       <w>DNase</w>
+      <w>Default</w>
       <w>Diagonal</w>
       <w>Dialyzer</w>
       <w>Dim</w>
@@ -572,10 +578,12 @@
       <w>Harman74.cor</w>
       <w>Hershey</w>
       <w>Hilbert</w>
+      <w>Hitters</w>
       <w>HoltWinters</w>
       <w>I</w>
       <w>IGF</w>
       <w>IQR</w>
+      <w>ISLR</w>
       <w>ISOdate</w>
       <w>ISOdatetime</w>
       <w>Im</w>
@@ -594,6 +602,7 @@
       <w>Kenvl</w>
       <w>KernSmooth</w>
       <w>Kfn</w>
+      <w>Khan</w>
       <w>KhatriRao</w>
       <w>LAB</w>
       <w>LDEsysMat</w>
@@ -631,6 +640,7 @@
       <w>Mod</w>
       <w>Module</w>
       <w>Muscle</w>
+      <w>NCI60</w>
       <w>NCOL</w>
       <w>NLSstAsymptotic</w>
       <w>NLSstClosestX</w>
@@ -644,6 +654,7 @@
       <w>Nile</w>
       <w>Nitrendipene</w>
       <w>Null</w>
+      <w>OJ</w>
       <w>OME</w>
       <w>Oats</w>
       <w>OlsonNames</w>
@@ -669,6 +680,7 @@
       <w>Pima.tr2</w>
       <w>Pixel</w>
       <w>PlantGrowth</w>
+      <w>Portfolio</w>
       <w>Position</w>
       <w>PositionDodge</w>
       <w>PositionDodge2</w>
@@ -801,6 +813,7 @@
       <w>Sl.initial.repara</w>
       <w>Sl.repara</w>
       <w>Sl.setup</w>
+      <w>Smarket</w>
       <w>Soybean</w>
       <w>Spruce</w>
       <w>Stangle</w>
@@ -908,6 +921,8 @@
       <w>View</w>
       <w>WWWusage</w>
       <w>Wafer</w>
+      <w>Wage</w>
+      <w>Weekly</w>
       <w>Wheat</w>
       <w>Wheat2</w>
       <w>WorldPhones</w>
