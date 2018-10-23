@@ -607,6 +607,7 @@
       <w>Loblolly</w>
       <w>Logic</w>
       <w>MASS</w>
+      <w>MDSplot</w>
       <w>Machines</w>
       <w>Map</w>
       <w>Math</w>
@@ -1901,6 +1902,7 @@
       <w>claridge</w>
       <w>class</w>
       <w>class.ind</w>
+      <w>classCenter</w>
       <w>classLabel</w>
       <w>classMetaName</w>
       <w>className</w>
@@ -1992,6 +1994,7 @@
       <w>columb.polys</w>
       <w>column_to_rownames</w>
       <w>colwise</w>
+      <w>combine</w>
       <w>combine_styles</w>
       <w>combine_vars</w>
       <w>combn</w>
@@ -2163,6 +2166,7 @@
       <w>cv.lognet</w>
       <w>cv.mrelnet</w>
       <w>cv.multnet</w>
+      <w>cv.tree</w>
       <w>cvcompute</w>
       <w>cvtype</w>
       <w>cyan</w>
@@ -2909,6 +2913,7 @@
       <w>getSubclasses</w>
       <w>getTaskCallbackNames</w>
       <w>getTkProgressBar</w>
+      <w>getTree</w>
       <w>getTxtProgressBar</w>
       <w>getValidity</w>
       <w>getVarCov</w>
@@ -3081,6 +3086,7 @@
       <w>grobY</w>
       <w>groupedData</w>
       <w>grouping</w>
+      <w>grow</w>
       <w>gsub</w>
       <w>gsummary</w>
       <w>gtable</w>
@@ -3192,6 +3198,8 @@
       <w>imp.weights</w>
       <w>implicitGeneric</w>
       <w>importIntoEnv</w>
+      <w>importance</w>
+      <w>imports85</w>
       <w>in.out</w>
       <w>inSide</w>
       <w>in_gamut</w>
@@ -3879,6 +3887,7 @@
       <w>mini.roots</w>
       <w>minn38</w>
       <w>mirror2html</w>
+      <w>misclass.tree</w>
       <w>missing</w>
       <w>missingArg</w>
       <w>missing_arg</w>
@@ -3957,7 +3966,9 @@
       <w>na.mean</w>
       <w>na.omit</w>
       <w>na.pass</w>
+      <w>na.roughfix</w>
       <w>na.rpart</w>
+      <w>na.tree.replace</w>
       <w>na_chr</w>
       <w>na_cpl</w>
       <w>na_dbl</w>
@@ -4143,6 +4154,7 @@
       <w>order.dendrogram</w>
       <w>ordered</w>
       <w>outer</w>
+      <w>outlier</w>
       <w>output_ansi</w>
       <w>output_utf8</w>
       <w>ovarian</w>
@@ -4262,6 +4274,8 @@
       <w>parse_quos</w>
       <w>parse_quosure</w>
       <w>parse_quosures</w>
+      <w>partialPlot</w>
+      <w>partition.tree</w>
       <w>paste</w>
       <w>paste0</w>
       <w>path.expand</w>
@@ -4343,6 +4357,7 @@
       <w>plot.spec.coherency</w>
       <w>plot.spec.phase</w>
       <w>plot.stepfun</w>
+      <w>plot.tree.sequence</w>
       <w>plot.trls</w>
       <w>plot.ts</w>
       <w>plot.window</w>
@@ -4526,8 +4541,11 @@
       <w>prop.trend.test</w>
       <w>prototype</w>
       <w>provideDimnames</w>
+      <w>prp</w>
       <w>prune</w>
+      <w>prune.misclass</w>
       <w>prune.rpart</w>
+      <w>prune.tree</w>
       <w>ps.options</w>
       <w>psi.bisquare</w>
       <w>psi.hampel</w>
@@ -4539,6 +4557,7 @@
       <w>pspline</w>
       <w>psurvreg</w>
       <w>pt</w>
+      <w>ptitanic</w>
       <w>ptukey</w>
       <w>punif</w>
       <w>push.viewport</w>
@@ -4636,6 +4655,7 @@
       <w>rainbow_hcl</w>
       <w>raise_to_power</w>
       <w>random.effects</w>
+      <w>randomForest</w>
       <w>randu</w>
       <w>ranef</w>
       <w>range</w>
@@ -4807,6 +4827,9 @@
       <w>revalue</w>
       <w>rexp</w>
       <w>rf</w>
+      <w>rfImpute</w>
+      <w>rfNews</w>
+      <w>rfcv</w>
       <w>rfs</w>
       <w>rgamma</w>
       <w>rgb</w>
@@ -4855,6 +4878,10 @@
       <w>rpart</w>
       <w>rpart.control</w>
       <w>rpart.exp</w>
+      <w>rpart.plot</w>
+      <w>rpart.plot.version1</w>
+      <w>rpart.predict</w>
+      <w>rpart.rules</w>
       <w>rpois</w>
       <w>rpretty</w>
       <w>rsignrank</w>
@@ -5106,6 +5133,7 @@
       <w>shortPathName</w>
       <w>should_stop</w>
       <w>show</w>
+      <w>show.prp.palettes</w>
       <w>show.settings</w>
       <w>showClass</w>
       <w>showConnections</w>
@@ -5188,6 +5216,7 @@
       <w>smoothScatter</w>
       <w>snails</w>
       <w>snip.rpart</w>
+      <w>snip.tree</w>
       <w>socketConnection</w>
       <w>socketSelect</w>
       <w>solder</w>
@@ -5802,6 +5831,7 @@
       <w>tibble_</w>
       <w>tidy_names</w>
       <w>tiff</w>
+      <w>tile.tree</w>
       <w>tilt.boot</w>
       <w>time</w>
       <w>times</w>
@@ -6053,8 +6083,11 @@
       <w>transform_position</w>
       <w>transplant</w>
       <w>tree</w>
+      <w>tree.control</w>
+      <w>tree.screens</w>
       <w>treering</w>
       <w>trees</w>
+      <w>treesize</w>
       <w>trellis.currentLayout</w>
       <w>trellis.device</w>
       <w>trellis.focus</w>
@@ -6117,6 +6150,7 @@
       <w>ttkspinbox</w>
       <w>ttktreeview</w>
       <w>tuna</w>
+      <w>tuneRF</w>
       <w>tw</w>
       <w>txhousing</w>
       <w>txtProgressBar</w>
@@ -6221,7 +6255,9 @@
       <w>varFixed</w>
       <w>varFunc</w>
       <w>varIdent</w>
+      <w>varImpPlot</w>
       <w>varPower</w>
+      <w>varUsed</w>
       <w>varWeights</w>
       <w>variable.names</w>
       <w>varimax</w>
