@@ -1343,6 +1343,7 @@
       <w>allCoef</w>
       <w>allGenerics</w>
       <w>allNames</w>
+      <w>allShortestPaths</w>
       <w>all_dots</w>
       <w>allowInterrupts</w>
       <w>alpha</w>
@@ -1658,6 +1659,7 @@
       <w>basehaz</w>
       <w>basename</w>
       <w>batchSOM</w>
+      <w>bclust</w>
       <w>bcv</w>
       <w>bdf</w>
       <w>bdiag</w>
@@ -1669,6 +1671,11 @@
       <w>besselJ</w>
       <w>besselK</w>
       <w>besselY</w>
+      <w>best.nnet</w>
+      <w>best.randomForest</w>
+      <w>best.rpart</w>
+      <w>best.svm</w>
+      <w>best.tune</w>
       <w>beta</w>
       <w>betar</w>
       <w>bezierGrob</w>
@@ -1684,6 +1691,7 @@
       <w>bibentry</w>
       <w>bibstyle</w>
       <w>bigcity</w>
+      <w>bincombinations</w>
       <w>bindingIsActive</w>
       <w>bindingIsLocked</w>
       <w>bindtextdomain</w>
@@ -1713,6 +1721,7 @@
       <w>boot</w>
       <w>boot.array</w>
       <w>boot.ci</w>
+      <w>bootstrap.lca</w>
       <w>borders</w>
       <w>boundary</w>
       <w>box</w>
@@ -1830,6 +1839,7 @@
       <w>ceiling</w>
       <w>cement</w>
       <w>censboot</w>
+      <w>centers.bclust</w>
       <w>cgd</w>
       <w>changedFiles</w>
       <w>channing</w>
@@ -1902,6 +1912,7 @@
       <w>claridge</w>
       <w>class</w>
       <w>class.ind</w>
+      <w>classAgreement</w>
       <w>classCenter</w>
       <w>classLabel</w>
       <w>classMetaName</w>
@@ -1933,9 +1944,11 @@
       <w>clusterMap</w>
       <w>clusterSetRNGStream</w>
       <w>clusterSplit</w>
+      <w>clusters.bclust</w>
       <w>cm</w>
       <w>cm.colors</w>
       <w>cmdscale</w>
+      <w>cmeans</w>
       <w>cmpfile</w>
       <w>cmpfun</w>
       <w>cnd</w>
@@ -2004,6 +2017,7 @@
       <w>compact</w>
       <w>compactPDF</w>
       <w>compareFits</w>
+      <w>compareMatchedClasses</w>
       <w>comparePred</w>
       <w>compareVersion</w>
       <w>compile</w>
@@ -2097,6 +2111,7 @@
       <w>cospi</w>
       <w>count</w>
       <w>count.fields</w>
+      <w>countpattern</w>
       <w>cov</w>
       <w>cov.mcd</w>
       <w>cov.mve</w>
@@ -2128,6 +2143,7 @@
       <w>create_progress_bar</w>
       <w>crimtab</w>
       <w>crossprod</w>
+      <w>cshell</w>
       <w>ctxt_depth</w>
       <w>ctxt_frame</w>
       <w>ctxt_stack</w>
@@ -2171,6 +2187,7 @@
       <w>cvtype</w>
       <w>cyan</w>
       <w>cycle</w>
+      <w>d2sigmoid</w>
       <w>dDeta</w>
       <w>dQuote</w>
       <w>d_ply</w>
@@ -2198,6 +2215,7 @@
       <w>dcast</w>
       <w>dcauchy</w>
       <w>dchisq</w>
+      <w>ddiscrete</w>
       <w>ddply</w>
       <w>de</w>
       <w>de.ncols</w>
@@ -2376,6 +2394,7 @@
       <w>droplevels.data.frame</w>
       <w>droplevels.factor</w>
       <w>dropterm</w>
+      <w>dsigmoid</w>
       <w>dsignrank</w>
       <w>dsurvreg</w>
       <w>dt</w>
@@ -2402,6 +2421,7 @@
       <w>dyn.load</w>
       <w>dyn.unload</w>
       <w>dynGet</w>
+      <w>e1071</w>
       <w>each</w>
       <w>eagles</w>
       <w>eapply</w>
@@ -2416,11 +2436,13 @@
       <w>eigen</w>
       <w>el</w>
       <w>elNamed</w>
+      <w>element</w>
       <w>element_blank</w>
       <w>element_grob</w>
       <w>element_line</w>
       <w>element_rect</w>
       <w>element_text</w>
+      <w>ellipse</w>
       <w>ellipsoidPoints</w>
       <w>ellipsoidhull</w>
       <w>elnet</w>
@@ -2540,6 +2562,7 @@
       <w>extract.lme.cov2</w>
       <w>extract2</w>
       <w>extractAIC</w>
+      <w>extractPath</w>
       <w>f_capture</w>
       <w>f_env</w>
       <w>f_eval</w>
@@ -2573,6 +2596,7 @@
       <w>fansi_lines</w>
       <w>farms</w>
       <w>fbeta</w>
+      <w>fclustIndex</w>
       <w>fdHess</w>
       <w>fft</w>
       <w>fgl</w>
@@ -3116,6 +3140,9 @@
       <w>guides</w>
       <w>gzcon</w>
       <w>gzfile</w>
+      <w>hamming.distance</w>
+      <w>hamming.window</w>
+      <w>hanning.window</w>
       <w>hasArg</w>
       <w>hasLoadAction</w>
       <w>hasMethod</w>
@@ -3137,6 +3164,7 @@
       <w>have_name</w>
       <w>hcl</w>
       <w>hclust</w>
+      <w>hclust.bclust</w>
       <w>hclwizard</w>
       <w>head</w>
       <w>head.matrix</w>
@@ -3168,6 +3196,7 @@
       <w>hsearch_db_concepts</w>
       <w>hsearch_db_keywords</w>
       <w>hsv</w>
+      <w>hsv_palette</w>
       <w>html_code_block</w>
       <w>html_esc</w>
       <w>huber</w>
@@ -3175,6 +3204,7 @@
       <w>hue_slice</w>
       <w>hvc2mnsl</w>
       <w>iapply</w>
+      <w>ica</w>
       <w>iconv</w>
       <w>iconvlist</w>
       <w>icount</w>
@@ -3200,6 +3230,7 @@
       <w>importIntoEnv</w>
       <w>importance</w>
       <w>imports85</w>
+      <w>impute</w>
       <w>in.out</w>
       <w>inSide</w>
       <w>in_gamut</w>
@@ -3239,6 +3270,7 @@
       <w>interactive</w>
       <w>interp</w>
       <w>interpSpline</w>
+      <w>interpolate</w>
       <w>interpret.gam</w>
       <w>intersect</w>
       <w>intervals</w>
@@ -3523,6 +3555,7 @@
       <w>kruskal.test</w>
       <w>ks.test</w>
       <w>ksmooth</w>
+      <w>kurtosis</w>
       <w>kyphosis</w>
       <w>l10n_info</w>
       <w>l_ply</w>
@@ -3581,6 +3614,7 @@
       <w>lazy_eval</w>
       <w>lazyeval</w>
       <w>lbeta</w>
+      <w>lca</w>
       <w>lchoose</w>
       <w>lcm</w>
       <w>ldTweedie</w>
@@ -3817,6 +3851,8 @@
       <w>match.call</w>
       <w>match.fun</w>
       <w>match.ratetable</w>
+      <w>matchClasses</w>
+      <w>matchControls</w>
       <w>matchSignature</w>
       <w>match_df</w>
       <w>matlines</w>
@@ -3914,6 +3950,7 @@
       <w>model.weights</w>
       <w>modify</w>
       <w>modifyList</w>
+      <w>moment</w>
       <w>mona</w>
       <w>mono.con</w>
       <w>month.abb</w>
@@ -3974,6 +4011,7 @@
       <w>na_dbl</w>
       <w>na_int</w>
       <w>na_lgl</w>
+      <w>naiveBayes</w>
       <w>name_rows</w>
       <w>names</w>
       <w>names.POSIXlt</w>
@@ -4309,10 +4347,12 @@
       <w>pdf</w>
       <w>pdf.options</w>
       <w>pdfFonts</w>
+      <w>pdiscrete</w>
       <w>peek_option</w>
       <w>peek_options</w>
       <w>pen.edf</w>
       <w>periodicSpline</w>
+      <w>permutations</w>
       <w>person</w>
       <w>personList</w>
       <w>persp</w>
@@ -4367,6 +4407,7 @@
       <w>plot_closest</w>
       <w>plot_hex</w>
       <w>plot_mnsl</w>
+      <w>plotcorr</w>
       <w>plotcp</w>
       <w>pltree</w>
       <w>pluton</w>
@@ -4518,6 +4559,7 @@
       <w>printcp</w>
       <w>prmat</w>
       <w>prmatrix</w>
+      <w>probplot</w>
       <w>proc.time</w>
       <w>process.events</w>
       <w>prod</w>
@@ -4576,6 +4618,7 @@
       <w>qcauchy</w>
       <w>qchisq</w>
       <w>qda</w>
+      <w>qdiscrete</w>
       <w>qexp</w>
       <w>qf</w>
       <w>qgamma</w>
@@ -4685,6 +4728,7 @@
       <w>rbind.fill.matrix</w>
       <w>rbind2</w>
       <w>rbinom</w>
+      <w>rbridge</w>
       <w>rc.getOption</w>
       <w>rc.options</w>
       <w>rc.settings</w>
@@ -4692,6 +4736,7 @@
       <w>rcauchy</w>
       <w>rchisq</w>
       <w>rcond</w>
+      <w>rdiscrete</w>
       <w>rdply</w>
       <w>reStruct</w>
       <w>read.00Index</w>
@@ -4709,6 +4754,7 @@
       <w>read.fortran</w>
       <w>read.ftable</w>
       <w>read.fwf</w>
+      <w>read.matrix.csr</w>
       <w>read.mtp</w>
       <w>read.octave</w>
       <w>read.socket</w>
@@ -4741,6 +4787,7 @@
       <w>rect</w>
       <w>rect.hclust</w>
       <w>rectGrob</w>
+      <w>rectangle.window</w>
       <w>red</w>
       <w>reduce.nn</w>
       <w>reformulate</w>
@@ -4904,6 +4951,7 @@
       <w>runmed</w>
       <w>ruspini</w>
       <w>rweibull</w>
+      <w>rwiener</w>
       <w>rwilcox</w>
       <w>rygbp</w>
       <w>s</w>
@@ -5151,6 +5199,7 @@
       <w>shuttle</w>
       <w>sigToEnv</w>
       <w>sigma</w>
+      <w>sigmoid</w>
       <w>sign</w>
       <w>signalCondition</w>
       <w>signature</w>
@@ -5178,6 +5227,7 @@
       <w>sinpi</w>
       <w>sizeDiss</w>
       <w>sizeof</w>
+      <w>skewness</w>
       <w>skewpart</w>
       <w>slanczos</w>
       <w>sleep</w>
@@ -5340,6 +5390,7 @@
       <w>step</w>
       <w>stepAIC</w>
       <w>stepfun</w>
+      <w>stft</w>
       <w>stl</w>
       <w>stop</w>
       <w>stopCluster</w>
@@ -5714,6 +5765,7 @@
       <w>suspendInterrupts</w>
       <w>svd</w>
       <w>svg</w>
+      <w>svm</w>
       <w>sweep</w>
       <w>swiss</w>
       <w>switch</w>
@@ -6150,6 +6202,13 @@
       <w>ttkspinbox</w>
       <w>ttktreeview</w>
       <w>tuna</w>
+      <w>tune</w>
+      <w>tune.control</w>
+      <w>tune.knn</w>
+      <w>tune.nnet</w>
+      <w>tune.randomForest</w>
+      <w>tune.rpart</w>
+      <w>tune.svm</w>
       <w>tuneRF</w>
       <w>tw</w>
       <w>txhousing</w>
@@ -6395,7 +6454,9 @@
       <w>write.foreign</w>
       <w>write.ftable</w>
       <w>write.matrix</w>
+      <w>write.matrix.csr</w>
       <w>write.socket</w>
+      <w>write.svm</w>
       <w>write.table</w>
       <w>writeBin</w>
       <w>writeChar</w>

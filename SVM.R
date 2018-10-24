@@ -38,3 +38,20 @@ p = ggplot() + geom_point(data = observations, aes(X1, X2), col = col, size = 3)
 p = p + geom_line(data = data.frame(X1 = c(0.5, 5), X2 = c(0, 4.5)), aes(X1, X2)) +
     geom_line(data = data.frame(X1 = c(0, 5), X2 = c(0, 5)), aes(X1, X2), linetype="dashed") +
     geom_line(data = data.frame(X1 = c(1, 5), X2 = c(0, 4)), aes(X1, X2), linetype="dashed")
+
+
+# f = function(x){y = 1 + 3 * x; return(y)}
+# x1 = -10:10
+# x2 = f(x1)
+#
+# x_range = range(x1)
+# y_range = range(x2)
+# x_grid = seq(from = x_range[1], to = x_range[2], length = 60)
+# y_grid = seq(from = y_range[1], to = y_range[2], length = 60)
+# grid_points = expand.grid(X1 = x_grid, X2 = y_grid)
+#
+# grid_points_predited = ifelse(grid_points$X2 > f(grid_points$X1), 1, 2)
+#
+# color_array = c("red", "blue")[as.numeric(grid_points_predited)]
+# plot(grid_points, col = color_array, pch = 20, cex = 0.25)
+# lines(x1, x2)
