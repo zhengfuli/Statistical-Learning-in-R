@@ -31,7 +31,7 @@ na.omit(Auto)
 
 svm_plot = function(X1, X2, kernel, cost, gamma, degree)
 {
-    fit = svm(as.formula(paste("new_mpg ~", X1, "+", X2)), data = Auto, kernel = kernel, cost = cost, degree = degree)
+    fit = svm(new_mpg ~ ., data = Auto, kernel = kernel, cost = cost)
 
     grid_range = apply(Auto[c(X1, X2)], 2, range)
     grid_X1 = seq(from = grid_range[1, 1] - 0.25, to = grid_range[2, 1] + 0.25, length = 75)
@@ -39,13 +39,13 @@ svm_plot = function(X1, X2, kernel, cost, gamma, degree)
 
     grid = expand.grid(acceleration = grid_X1, weight = grid_X2)
     grid$class = predict(fit, grid)
-    decision_values = predict(fit, grid, decision.values = TRUE)
-    grid$z = as.vector(attributes(decision_values)$decision)
-
-    plot(grid[c(X1, X2)], col = ifelse(grid$class == 1, '#0571B070', '#CA002070'), pch='20', cex=.2)
-    points(Auto[c(X1, X2)], col = ifelse(new_mpg == 1, '#0571B070', '#CA002070'))
-    contour(grid_X1, grid_X2, matrix(grid$z, length(grid_X1), length(grid_X2)), level = 0, lwd = 1.5, drawlabels = FALSE, add = TRUE)
-    mtext(paste('\nKernel:', kernel, '        Cost:', cost, '        Degree:', degree), line = -3, outer = TRUE)
+    # decision_values = predict(fit, grid, decision.values = TRUE)
+    # grid$z = as.vector(attributes(decision_values)$decision)
+    #
+    # plot(grid[c(X1, X2)], col = ifelse(grid$class == 1, '#0571B070', '#CA002070'), pch='20', cex=.2)
+    # points(Auto[c(X1, X2)], col = ifelse(new_mpg == 1, '#0571B070', '#CA002070'))
+    # contour(grid_X1, grid_X2, matrix(grid$z, length(grid_X1), length(grid_X2)), level = 0, lwd = 1.5, drawlabels = FALSE, add = TRUE)
+    # mtext(paste('\nKernel:', kernel, '        Cost:', cost, '        Degree:', degree), line = -3, outer = TRUE)
 }
 
-svm_plot("acceleration", "weight", "polynomial", cost = 124, degree = 2)
+svm_plot("acceleration", "weight", "linear", cost = 0.72)
